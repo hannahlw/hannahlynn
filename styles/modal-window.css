@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(http://fonts.googleapis.com/css?family=Special+Elite);
+@import url(http://fonts.googleapis.com/css?family=Glegoo);
+
+body {
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  /*font-family: 'Special Elite', cursive;*/
+  font-family: 'Glegoo', serif;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #131313;
+  opacity: .85;
+  filter: alpha(opacity=85);
+  z-index: 101;
+}
+.modal-window {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  z-index: 102;
+  background: #fff;
+  border: solid 8px #000;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+.close-window {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  right: -23px;
+  top: -23px;
+  background: transparent url(../images/close-button.png) no-repeat scroll right top;
+  text-indent: -99999px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+p {
+  text-align: left;
+  color: rgb(77, 77, 77);
+  font-size: 1.2em;
+}
+
+ .inbut {
+    text-decoration: none;
+    color: #e8d245;
+  }
+
+  .inbut:hover {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    
+  }
+
+.flat-but {
+  color: white;
+  text-decoration: none;
+  background: #28506d;
+  line-height: 1;
+  padding: 18px 24px 18px 24px;
+  text-transform: uppercase;
+}
+
+
+.flat-but:hover {
+  color: white;
+  transition: .5s;
+  background: MediumSpringGreen;
+}

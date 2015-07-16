@@ -1,0 +1,218 @@
+<!doctype html> 
+<html> 
+<head> 
+<meta charset="utf-8"> 
+<title>Hannah's Portfolio | Web Design and Development</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="styles/modal-window.css" />
+<script type="text/javascript" language="javascript" src="scripts/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" language="javascript" src="scripts/modal-window.min.js"></script>
+<script type="text/javascript">
+    function open_modal() {
+      $(this).modal({width:533, height:153, src:"flatiron.html"}).open();
+      $(this).modal({width:533, height:153, src:"skillcrush.html"}).open();
+            }
+</script>
+</head> 
+<body>
+
+<!-- side menu -->
+<div class="navigation">
+	<img src="images/photo 4.JPG" height="150" width="150">
+	<br>
+	<div class="line"></div>
+		<ul class="nav">
+		    <li class="nav-item"><a href="#home">Home</a></li>
+		    <li class="nav-item"><a href="#about">About</a></li>
+		    <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+		    <li class="nav-item"><a href="http://hannahlw.github.io/" target="_blank">Blog</a></li>
+		    <li class="nav-item"><a href="#contact">Contact</a></li>
+		</ul>
+		<div id="social">
+			<a class="git" href="github.com/hannahlw" target="_blank" title="github">Github</a>
+			<a class="link"href="https://www.linkedin.com/in/hannahwestheimer" target="_blank" title="linkedin">LinkedIn</a>
+			<a class="twiter" href="https://twitter.com/hannahlynnw" target="_blank">Twitter</a>
+	</div>
+	<br>
+	<div id="words">
+		<ul>
+			<li><span>Philadelphia, PA</span></li>
+			<li style="font-size: 0.7em;"><span>hannah.westheimer@gmail.com</span></li>
+		</ul>
+	</div>
+</div>
+<input type="checkbox" id="nav-trigger" class="nav-trigger"/>
+<label for="nav-trigger"></label>
+<!-- end side menu -->
+
+<!-- wrap the rest of the page -->
+<div class="site-wrap">
+
+<!-- home -->
+	<section id="home">
+		<div id="background-image-holder">
+			<hgroup class="opener">
+				<h1 id="name">Hannah Westheimer</h1> 
+				<h1 id="title">Web Developer</h1>
+			</hgroup>	
+		</div>
+	</section>
+<!-- end home -->
+	
+	<hr>
+
+<!-- about section -->
+	<section id="about">
+		<figure>
+			<img src="images/FullSizeRender.jpg" >
+		</figure>
+		<div id="about-text">
+			<h1>About</h1> 
+			<hr>
+			<p>Hi, I'm Hannah, a web developer who I grew up on an organic farm outside of Cincinnati, OH. I now live in Philadelphia, PA.</p>
+
+			<p>I found my love for code while working for a farming organization, maintaining their social-media and helping write educational curriculum. Over time I became the go-to tech person, running webinars and maintaining their website. I started teaching myself HTML and CSS. I loved the feeling when I build my first website, being able to use logic and apply what I had learned to create something from scratch.</p>
+
+			<p>I decided to take the plunge and commit to learning web development full-time and from April 29th till June 19th 2015, I attended the <a href="http://flatironschool.com/" target="_blank">Flatiron School</a>, an intensive coding bootcamp in New York, NY. I had an amazing experience learning to be a full stack developer surrounded by a community equally enthusiastic about learning this new skill.</p>
+
+			<p>I love to be creative in everything I do and when I am not developing my latest side project, I can often be found cooking a meal from scratch, sawing a new clothing design, and gardening.</p>
+
+			<p>Check out my projects on my <a href="https://github.com/hannahlw" target="_blank">Github!</a></p>
+		</div>
+	</section>
+	<!-- end about section -->
+
+	<hr>
+
+<!-- break picture -->
+	<section class="break">
+		<div id="pic">
+			<p><q>I never am really satisfied that I understand anything; because, understand it well as I may, my comprehension can only be an infinitesimal fraction of all I want to understand.</q><br> - Ada Lovelace</p>
+		</div>	
+	</section>
+<!-- end break pic -->
+
+	<hr>
+
+<!-- portfolio section -->
+	<section id="portfolio">
+		<h1>Projects</h1>
+		<br>
+		<br>
+		<br>
+		<div id="projects">
+			<div class="col-2">
+				<img src="images/give-a-fig2.png" height="250" width="350">
+				<p style="font-size: 1.3em;">Give-a-Fig</p>
+				<p>Made with Rails, Javascript, and AJAX. Uses the Google Maps, NYC Open Data, and Yummly APIs.</p>
+				<div class="port-but">
+					<button class="diagonal" href="https://give-a-fig.herokuapp.com/" target="_blank">Checkout the site</button>
+					<button class="diagonal" href="https://github.com/hannahlw/give-a-fig" target="_blank">View the Code</button>
+				</div>
+			</div>
+
+			<div class="col-2">
+				<img src="images/placemat.png" height="250" width="350">
+				<p style="font-size: 1.3em;">Placemat</p>
+				<p>Made with Rails, Javascript, and AJAX. Utilized the Embedly library to generate embeddable iframes to improve user interactions with all types of media. </p>
+				<div class="port-but">
+					<button class="diagonal" href="http://placemat.herokuapp.com/" target="_blank">Checkout the site</button>
+					<button class="diagonal" href="https://github.com/hannahlw/red-jaguar" target="_blank">View the Code</button>
+				</div>
+			</div>
+
+			<div class="col-2">
+				<a href="http://reclaimedharvest.com/index.html" target"_blank"><img src="images/reclaimedharvest.png" height="250" width="350"></a>
+				<p style="font-size: 1.3em;">Reclaimed Harvest</p>
+				<p>Simple HTML and CSS website</p>
+				<div class="port-but">
+					<button class="diagonal" href="reclaimedharvest.com" target="_blank">Checkout the site</button>
+					<button class="diagonal" href="https://github.com/hannahlw/reclaimedharvest" target="_blank">View the Code</button>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- end portfolio -->
+
+<hr id="school-line">
+
+<!-- school section -->
+	<section id="school">
+	<h1>Learn</h1>
+	<p>I love code. I have had the oppertunity to learn code from these resources:</p>
+	<div id="main-schools">
+		<ul class="col" style="border-right: 1px dashed grey;">
+			<li>
+			<a href="flatiron.html" onclick="$(this).modal({width:833, height:453}).open(); return false;"><img src="images/flatiron-symbol.jpg"></a>
+			</li>
+		</ul>
+		<ul class="col" style="margin-top: 5%; margin-bottom: 11%;">
+			<li>
+			<a href="skillcrush.html" onclick="$(this).modal({width:833, height:453}).open(); return false;"><img src="images/skillcrush-1.png" style="width: 70%;"></a>
+			</li>
+		</ul>
+		<button class="diagonal" id="view-more">View More</button>
+		</div>
+		<div id="more-school" style="display:none; margin-top: 22%;">
+		<hr>
+			<ul id="codeacdemy" class="col-1" style="border-right: 1px dashed grey;">
+				<li style="margin-right: 10%;">
+					<p>Codeacemy</p>
+					<img src="images/codecademy-logo-.png">
+					<a href="http://www.codecademy.com/hannah.westheimergmail.com" target="_blank"><span id="codeacemy-words" style="display:none;">Online resource for learning web development. Checkout my profile!</span></a>
+				</li>
+			</ul>
+			<ul id="girldevelop" class="col-1" style="border-right: 1px dashed grey;">
+				<li style="margin-right: 10%;">
+					<p>Girl Develop It</p>
+					<img src="images/girldevelopit2.png" style="margin-top: 12%;">
+					<a href="http://www.meetup.com/Girl-Develop-It-Philadelphia/" target="_blank"><span id="girldevelop-words" style="display:none;">Meetup Group with classes for women to learn to code. Checkout the group!</span></a>
+				</li>
+			</ul>
+			<ul id="treehouse" class="col-1" style="border-right: 1px dashed grey;">
+				<li style="margin-right: 12%;">
+					<p>Treehouse</p>
+					<img src="images/treehouse-logo-2.png" style="margin-top: 12%;">
+					<a href="http://teamtreehouse.com/hannahwestheimer" target="_blank"><span id="treehouse-words" style="display:none;">Online resource for learning web development. Checkout my profile!</span></a>
+				</li>
+			</ul>
+			<ul id="codeschool" class="col-1">
+				<li style="margin-right: 10%;">
+					<p>Code School</p>
+					<img src="images/code-school.png" style="margin-top: 6%;">
+					<a href="https://www.codeschool.com/users/1206997" target="_blank"><span id="codeschool-words" style="display:none;">Online resource for learning web development. Checkout my profile!</span></a>
+				</li>
+			</ul>
+
+			<!-- <hr style="margin-top: 22%;"> -->
+		</div>
+		<br>
+	</section>
+<!-- end school section -->
+
+	<hr>
+
+<!-- contact section -->
+	<section id="contact">
+		<div id="contect-words">
+			<h1>Contact</h1>
+			<h2>Want to get in touch?</h2>
+			<a href="mailto:hannah.westheimer@gmail.com" class="contactbutton">email me</a>
+			<h3>Want to see my LinkedIn? Its <a href="https://www.linkedin.com/profile/view?id=50665611&trk=nav_responsive_tab_profile" target="_blank">here</a>.
+		</div>
+	</section>
+<!-- end contact section -->
+	<footer>
+		<h1>Follow Me</h1>
+		<div id="footer-social">
+			<a class="git-foot" href="https://github.com/hannahlw" target="_blank">Github</a><br>
+			<a class="twit-foot" href="https://twitter.com/hannahlynnw" target="_blank">Twitter</a><br>
+			<a class="insta-foot" href="http://instagram.com/hwestheimer/" target="_blank">Instagram</a><br>
+		</div>
+		<span> &copy; 2015 Hannah Westheimer, Inc. All Rights Reserved. </span>
+	</footer>
+</div><!-- end page wrapper -->
+</body>
+<script type="text/javascript" src="javascript/myjavascript.js"></script>
+</html>
